@@ -88,7 +88,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+.frito-card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -98,8 +98,21 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.ups-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.frito-card:hover {
+  border-color: #88fb1b;
+}
+.ups-card:hover {
+  border-color: #ecfb00;
 }
 
 ul.skills {
